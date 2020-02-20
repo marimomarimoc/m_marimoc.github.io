@@ -1,5 +1,7 @@
-#ハンドルネーム
-marimomarimoc まりもまりもく @m_marimoc 
+#　ハンドルネーム
+- marimomarimoc  
+- まりもまりもく 
+- @m_marimoc 
 
 # About
 コーディング・プログラミング
