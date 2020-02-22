@@ -1,0 +1,225 @@
+body {
+  font-size: 16px;
+  color:#333333;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'; 
+   margin: 0;
+}
+
+header {
+  background-color:#efefef;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+
+header h1,
+header p {
+  margin: 0;
+}
+
+
+
+header .icon {
+  width: 280px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.icon img {
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.info ul li {
+  margin-right: 15px;
+}
+
+.sns {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter-blue {
+  color: #1da1f2;
+}
+
+.github-blue {
+  color:#4078c0;
+}
+
+.profile img {
+ width: 100%;
+}
+
+.profile > h1 {
+  text-align: center;
+  padding: 64px 0 32px 0;
+  font-weight: normal;
+}
+
+.profile .container {
+  margin: 0 32px;
+}
+
+.profile p {
+  line-height: 1.8;
+}
+
+.profile li {
+  padding-bottom: 10px;
+}
+
+.profile section {
+  padding-bottom: 64px;
+}
+
+.work {
+  background: #f2f2f3;
+}
+
+.work > h1 {
+  text-align: center;
+  padding: 64px 0;
+  font-weight: normal;
+}
+
+.work ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.work img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.work h2 {
+  font-size: 20px;
+}
+
+.work li {
+  padding-bottom: 64px;
+}
+
+.btn {
+  text-decoration: none;
+  background: #349cc5;
+  color: #fff;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.call-to-action {
+  background: #efefef;
+  color: #333;
+  text-align: center;
+  padding: 64px 0 ;
+}
+
+.call-to-action h1 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.call-to-action  ul {
+  list-style: none;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.call-to-action  ul li:first-child {
+  margin-right: 15px;
+}
+
+
+footer {
+  padding: 32px 0;
+  background: #323135;
+  color: #98969c;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+@media (min-width: 900px) {
+  header .container {
+    display: flex;
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  header .icon {
+    width: 40%;
+    margin-bottom: 0;
+  }
+
+  header .info {
+    width: 60%;
+  }
+
+  .profile .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .profile section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .profile .pic {
+    width: 50%;
+    padding-top: 32px;
+  }
+
+  .profile .content {
+    width: calc(50% - 32px); /*幅を 32px 分余白にまわす*/
+  }
+
+  .work ul {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .work li {
+    width: 250px;
+  }
+}
